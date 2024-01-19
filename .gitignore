@@ -1,1 +1,3 @@
 env-airflow
+**/__pycache__/
+logs/
