@@ -16,7 +16,7 @@ def dbt_dag():
         import os
 
         # Fetch the dbt project path from env Variables
-        dbt_project_path = os.getenv("DBT_PROJECT_PATH", "if-no-dbt-path/make-it-fail")
+        dbt_project_path = os.getenv("DBT_PROJECT_DIR", "/opt/dbt")
 
         # Fetch the dbt environment flag from env Variables
         dbt_env = Variable.get("DBT_PROFILE_ENV", default_var="dev")

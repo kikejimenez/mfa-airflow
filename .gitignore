@@ -1,3 +1,7 @@
 env-airflow
 **/__pycache__/
 logs/
+plugins/
+config/
+.vscode
+.devcontainer
