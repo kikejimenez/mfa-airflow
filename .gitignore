@@ -5,3 +5,4 @@ plugins/
 config/
 .vscode
 .devcontainer
+airflow.sh
